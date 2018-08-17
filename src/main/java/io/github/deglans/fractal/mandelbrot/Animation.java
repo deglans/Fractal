@@ -16,7 +16,7 @@
  */
 package io.github.deglans.fractal.mandelbrot;
 
-import com.icafe4j.image.gif.GIFTweaker;
+//import com.icafe4j.image.gif.GIFTweaker;
 
 import io.github.deglans.fractal.utility.CartesianPlane;
 import io.github.deglans.fractal.utility.ColorPalette;
@@ -254,7 +254,7 @@ public class Animation extends Task<Long> {
                 delays[k] = 1000;
             }
 
-            GIFTweaker.writeAnimatedGIF(images, delays, fout);
+            //GIFTweaker.writeAnimatedGIF(images, delays, fout);
             fout.close();
         }
         catch (FileNotFoundException ex) {
